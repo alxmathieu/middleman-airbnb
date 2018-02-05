@@ -1,5 +1,5 @@
 #home {
-  background-color: #D23333;
+  background-color: $light-gray;
   color: white;
   height: 100vh;
   display: flex;
@@ -14,6 +14,10 @@
     font-weight: bold;
     font-size: 16px;
   }
+}
+
+.title {
+  color: $black;
 }
 
 .card .fa-star {

@@ -1,12 +1,13 @@
 .footer {
-  background: #F4F4F4;
+  background: $light-gray;
   display: flex;
   justify-content: space-between;
   margin: 30px;
+  color: $dark-gray;
 }
 
 .fa {
-  color: rgba(200,200,200,0.8);
+  color: $dark-gray;
   font-size: 25px;
   margin: 10px;
 }
@@ -16,6 +17,6 @@
 }
 
 .footer-links .fa:hover {
-  color: rgba(170,170,170,1)
+  color: $darker-gray;
 }
 
