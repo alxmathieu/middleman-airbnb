@@ -1,3 +1,21 @@
 .footer {
   background: #F4F4F4;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
 }
+
+.fa {
+  color: rgba(200,200,200,0.8);
+  font-size: 25px;
+  margin: 10px;
+}
+
+.fa-heart {
+  color: red;
+}
+
+.footer-links .fa:hover {
+  color: rgba(170,170,170,1)
+}
+
