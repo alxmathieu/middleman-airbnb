@@ -7,6 +7,8 @@
   position: relative;
   font-size: 13px;
   margin: 0;
+  margin-top: 50px;
+  padding: 100px;
 }
 .card-user {
   position: absolute;
@@ -61,4 +63,8 @@
 .fa-star {
   font-size: 13px;
   margin: 0;
+}
+
+.rating {
+  display: inline-block;
 }

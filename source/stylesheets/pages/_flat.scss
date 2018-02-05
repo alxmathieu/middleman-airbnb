@@ -1,0 +1,23 @@
+.wrapper-description {
+  background-color: $light-gray;
+
+}
+
+.container {
+  width: 65vw;
+
+}
+
+.small {
+  height: 70px;
+}
+
+#flat-description {
+  p, h1 {
+    color: $black;
+  }
+  .location {
+    color: $darker-gray;
+    font-size: 12px;
+  }
+}

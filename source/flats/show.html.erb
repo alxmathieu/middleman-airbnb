@@ -1,0 +1,57 @@
+
+<!-- Access data.flats with owner's name as key -->
+<% flat = data.flats[owner] %>
+
+<div class="banner-flat" style="background-image: linear-gradient(-225deg, rgba(40,40,40,0.6) 20%, rgba(70,70,70,0.2) 80%), url('https://kitt.lewagon.com/placeholder/cities/<%= flat.city_slug %>');">
+</div>
+
+<!-- Inject flat data in template -->
+
+<div class="wrapper-description">
+  <div class="container" id = "flat-description">
+    <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class: "img-circle small" %>
+    <p><%= flat.description %></p>
+    <p class= "location"><%= flat.city_name %></p>
+  iv class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-offset-8 col-sm-4 col-md-offset-8 col-md-4">
+          <form action="#">
+            <div class="row">
+             <!--  <div class="col-xs-6"> -->
+                <div class="form-group">
+                  <div class="col-xs-6">
+                    <label for="your-first-name">Your first name</label>
+                    <input type="text" id="your-first-name" placeholder="John" class="form-control">
+                  </div>
+                  <div class="col-xs-6">
+                    <label for="your-last-name">Your last name</label>
+                    <input type="text" id="your-last-name" placeholder="Doe" class="form-control">
+                  </div>
+                </div>
+              <!-- </div> -->
+            </div>
+            <div class="form-group">
+              <label for="your-email">Your email</label>
+              <input type="email" id="your-email" placeholder="john.doe@gmail.com" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="your-password">Your password</label>
+              <input type="text" id="your-password" placeholder="******" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="origin">How do you know us?</label>
+              <select id="origin" name="site" class="form-control">
+                <option value="facebook">Facebook</option>
+                <option value="google">Google</option>
+                <option value="friend">A friend</option>
+              </select>
+            </div>
+              <input type="submit" value="Sign up!" class="btn btn-primary">
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+  </div>
+</div>
