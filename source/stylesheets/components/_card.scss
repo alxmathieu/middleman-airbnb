@@ -5,6 +5,8 @@
   background-position: center;
   color: white;
   position: relative;
+  font-size: 13px;
+  margin: 0;
 }
 .card-user {
   position: absolute;
@@ -48,7 +50,6 @@
 }
 
 .container {
-
   padding: 100px 0;
 }
 
@@ -57,3 +58,7 @@
   background: white;
 }
 
+.fa-star {
+  font-size: 13px;
+  margin: 0;
+}
